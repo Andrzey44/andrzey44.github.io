@@ -92,7 +92,37 @@ body {
     transition: all 0.4s ease;
 }
 
+/* Grid structure */
+.row {
+  margin-bottom: 30px;
+}
 
+/* Responsive media */
+
+.responsive-image {
+  width: 100%;
+  max-width: 510px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.responsive-video {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+}
+
+/* See More */
+#more {
+  display: none;
+}
+
+.readMore {
+  margin-left: 20%;
+}
 /* Media qurey section */
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -347,8 +377,8 @@ body {
 }
 .myP {
 	text-align: justify;
-	padding-left:15%;
-	padding-right:15%;
+	padding-left:20%;
+	padding-right:20%;
 	font-size: 20px;
 }
 @media all and (max-width:700px){
