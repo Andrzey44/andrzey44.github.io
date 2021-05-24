@@ -115,7 +115,7 @@ body {
   margin-bottom: 30px;
 }
 
-/* See More */
+/* See More | See Less*/
 #more {
   display: none;
 }
@@ -123,6 +123,24 @@ body {
 .readMore {
   margin-left: 20%;
 }
+
+
+
+
+.showmore {
+  font-size: 1.1em;
+  margin-top: 1.5em;
+}
+
+.showmore .more, .showmore.show .dots {
+  display: none
+}
+
+.showmore.show .more {
+  display: inline
+}
+
+
 /* Media qurey section */
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
