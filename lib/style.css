@@ -1,0 +1,135 @@
+/* === FARBEN === */
+
+/*
+    Orange:             #c85a0f
+    7544 C:             #8796a0
+    Warm Gray 3 C:      #c8c3b9
+    7545 C:             #50646e
+    582 C:              #878700
+    Warm Gray 9 C:      #82786e
+    2587 C:             #824baf
+    186 C:              #c80a32
+    Warm Gray 6 C:      #a59b96
+    122 C:              #fad250
+    Web:                #666
+    Chart lines:        #868686
+
+ */
+
+ body {
+    color: #666;
+    font-family: 'Fira Sans Book', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+b, strong, label, legend, .button, button, input[type="submit"], input[type="reset"], input[type="button"], legend {
+    font-family: 'Fira Sans Semibold', sans-serif;
+}
+
+figure {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+#header-nav.container {
+    height: 100px;
+}
+
+.navigation {
+    position: absolute;
+    right: 2rem;
+    top: 2rem;
+    margin: 0;
+}
+
+.navigation > li {
+    display: inline-block;
+}
+
+.container > a > img {
+    position: absolute;
+    top: 2.5rem;
+
+}
+
+.navigation-item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ul > li > a {
+    font-size: 1.6rem;
+}
+
+ul > li > a:link {
+    color: #666;
+    text-decoration: none;
+}
+
+ul > li > a:visited {
+    color: #666;
+    text-decoration: none;
+}
+
+ul > li > a:hover {
+    color: #c85a0f;
+    text-decoration: none;
+}
+
+ul > li > a:active {
+    color: #c80a32;
+    text-decoration: none;
+}
+
+#structure_row {
+    position: relative;
+}
+#structure_text {
+    position: absolute;
+    right: .1rem;
+}
+
+
+/* === Table === */
+
+tr:nth-child(even) {
+    /* set the corporate color  */
+    background-color: #dddddd;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    /* set the corporate color  */
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+/* === Dropdowns === */
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover.dropdown-content {
+  display: block;
+}
